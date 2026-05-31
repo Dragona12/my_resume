@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to My Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background: #f4f7f6;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .welcome-card {
+            background: #ffffff;
+            max-width: 600px;
+            width: 100%;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+            text-align: center;
+        }
+
+        .avatar-placeholder {
+            width: 120px;
+            height: 120px;
+            background: #007acc;
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 2.5rem;
+            font-weight: bold;
+            margin: 0 auto 20px;
+        }
+
+        h1 {
+            color: #2c3e50;
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+
+        p {
+            color: #7f8c8d;
+            font-size: 1.1rem;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+
+        .btn-view-resume {
+            display: inline-block;
+            background: #007acc;
+            color: white;
+            padding: 14px 30px;
+            text-decoration: none;
+            font-size: 1rem;
+            font-weight: 600;
+            border-radius: 30px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0,122,204,0.3);
+        }
+
+        .btn-view-resume:hover {
+            background: #005999;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0,122,204,0.4);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="welcome-card">
+        <div class="avatar-placeholder">V</div> 
+        <h1>Xin chào, mình là một Developer!</h1>
+        <p>Chào mừng bạn đến với trang web cá nhân của mình. Đây là không gian lưu trữ các dự án, hoạt động và hành trình học tập công nghệ thông tin của mình.</p>
+        
+        <a href="./resume.html" class="btn-view-resume">Xem Resume / CV Của Mình</a>
+    </div>
+
+</body>
+</html>
